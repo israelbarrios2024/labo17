@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad práctica No 17</title>
+    <link rel="stylesheet" href="labo17.css">
+</head>
+<body>
+    <!--ENCABEZADO CON EL NOMBRE-->
+    <header>
+        <H1>ISRAEL ANTONIO BARRIOS ANAYA</H1>
+    </header>
+
+    <!--sección bibliografía-->
+    <section>
+        <button onclick="mostrarMensaje()">Bienvenidos</button>
+        <h2>Biografía</h2>
+        <p> <i> <b> Como no la tengo escrita le voy a contar señores, a contar mi biografía desde niño a esta parte. </b></i>  Ingeniero de sistemas, amo a los perros y me gusta la música vallenata, acordeonista en formación constante, samario </p>
+    </section>
+
+    <!--lista de habilidades técnicas-->
+    <section>
+        <h2>Habilidades técnicas</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python</li>
+            <li>JAVA, C++</li>
+            <li>MySQL, MongoDB</li>
+        </ul>
+    </section>
+
+    <!--formulario de contacto-->
+    <section>
+        <h2>Contacto</h2>
+        <form onsubmit="return valido()">
+            <label>Nombre: </label>
+            <input type="text" id="nombre" name="nombre">   
+            <label>Correo electrónico: </label>
+            <input type="email" id="email" name="email">
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!--pie de página-->
+    <footer>
+        <p>Contáctame: &copy; <a href="mailto:isbarriosa@gmail.com">Israel A. Barrios</a> </p>
+    </footer>
+
+    
+
+    <script src="labo17.js"></script>    
+</body>
+</html>
